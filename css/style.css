@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+body { margin: 0; }
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 2px 3px 10px rgb(0, 0, 0, 0.3);
+    z-index: 1;
+}
+.nav li {
+    float: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+.nav .right {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    letter-spacing: 4px;
+    padding: 15px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+.nav .left {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    letter-spacing: 4px;
+    padding: 15px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+/* .header1 { position: relative;} */
+
+.header1 img {
+    max-width: 1600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header1 p {
+    font-size: 35px;
+    color: #555555;
+    position: absolute;
+    left: 180px;
+    bottom: 110px;
+    font-family: 제주명조;
+    letter-spacing: 3px;
+}
+.content1 {
+    box-sizing: border-box;
+    max-width: 1200px;
+    height: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+    
+}
+
+.img1 {
+    box-sizing: border-box;
+    width: 49.99999%;
+    height: auto;
+    float: left;
+    
+
+}
+.textbox { float: left;}
+.content1 {
+    content: "";
+    display: table;
+    clear: both;
+}
+.img1 img {
+    /* padding-left: 150px; */
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textbox { 
+    box-sizing: border-box;
+    width: 48%;
+    height: auto;
+    margin-right: 10px;
+}
+.p1 {
+    font-size: 45px;
+    letter-spacing: 4px;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.p2 { 
+    text-align: center;
+    letter-spacing: 3px;
+}
+.pre1 {
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    /* padding-left: 220px; */
+    margin-top: 50px;
+}
+
+hr { width: 960px;}
