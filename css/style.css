@@ -25,7 +25,7 @@ body { margin: 0; }
     color: black;
     font-size: 14px;
     letter-spacing: 4px;
-    padding: 15px 10px;
+    padding: 5px 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 } 
 
@@ -34,11 +34,17 @@ body { margin: 0; }
     color: black;
     font-size: 14px;
     letter-spacing: 4px;
-    padding: 15px 10px;
+    padding: 5px 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 
+.nav .right:hover {
+    background-color: #dfdfdf;
+}
+.nav .left:hover {
+    background-color: #dfdfdf;
+}
 .main {
     width: 100%;
     height: 100%;
@@ -58,7 +64,7 @@ body { margin: 0; }
     position: absolute;
     left: 180px;
     bottom: 110px;
-    font-family: 제주명조;
+    font-family: 'Times New Roman', Times, serif;
     letter-spacing: 3px;
 }
 .content1 {
@@ -69,6 +75,7 @@ body { margin: 0; }
     margin-right: auto;
     margin-left: auto;
     margin-top: 70px;
+    margin-bottom: 50px;
     
 }
 
@@ -118,6 +125,166 @@ body { margin: 0; }
     line-height: 1.5;
     /* padding-left: 220px; */
     margin-top: 50px;
+    margin-left: 25px;
 }
 
-hr { width: 960px;}
+hr { width: 1100px; border: 1px solid #efefef;}
+
+.content2 {
+    box-sizing: border-box;
+    max-width: 1200px;
+    height: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    
+}
+
+.img2 {
+    box-sizing: border-box;
+    width: 49.99999%;
+    height: auto;
+    float: right;
+    
+
+}
+
+.textbox2 { float: right;}
+
+.content2 {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img2 img {
+    /* padding-left: 150px; */
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textbox2 { 
+    box-sizing: border-box;
+    width: 48%;
+    height: auto;
+    margin-right: 15px;
+}
+
+.textbox2 .p1 { 
+    font-size: 35px;
+    color: #666666;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.textbox2 h2 {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.textbox2 p {
+    color: #999999;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact {
+    max-width: 1200px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    height: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-left: 55px;
+}
+
+.contact h2 {
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+.contact p {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+input.name {
+    width: 92%;
+    height: auto;
+    border: 0;
+    padding: 20px 10px;
+    border-bottom: 1px solid #999999;
+    font-family: 'Times New Roman', Times, serif;
+    color: #999999;
+
+}
+
+input.number {
+    width: 92%;
+    height: auto;
+    border: 0;
+    padding: 20px 10px;
+    border-bottom: 1px solid #999999;
+    font-family: 'Times New Roman', Times, serif;
+    color: #999999;
+}
+
+input.date {
+    width:92%;
+    height: auto;
+    border: 0;
+    padding: 20px 10px;
+    border-bottom: 1px solid #999999;
+    font-family: 'Times New Roman', Times, serif;
+    color: #999999;
+}
+input.message {
+    width: 92%;
+    height: auto;
+    border: 0;
+    padding: 20px 10px;
+    border-bottom: 1px solid #999999;
+    font-family: 'Times New Roman', Times, serif;
+    color: #999999;
+}
+
+input.btn {
+    margin-top: 20px;
+    border: 0;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333333;
+    font-size: 17px;
+}
+input.btn:hover {
+    background-color: #dfdfdf;
+}
+
+.footer {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #efefef;
+    padding: 50px;
+   
+}
+
+.footer { float: left; }
+
+.footer .haha { 
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
